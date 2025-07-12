@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+<title>Ali Şafak</title>
+<style>
+    body {
+  background-color: #c8eb04;
+  color: #080cdf;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+a {color: blue;}
+p {color: crimson;}
+h1 {color: darkmagenta;}
+.buton1 {
+  display: inline-block; /* Linki buton gibi davranmasını sağlar */
+  background-color: #7bd67e;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none; /* Alt çizgiyi kaldırır */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.buton1:hover {
+  background-color: #024b05;
+}
+.buton2 {
+  display: inline-block; /* Linki buton gibi davranmasını sağlar */
+  background-color: #b85e5e;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none; /* Alt çizgiyi kaldırır */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.buton2:hover {
+  background-color: #f30c1f;
+}
+.buton3 {
+  display: inline-block; /* Linki buton gibi davranmasını sağlar */
+  background-color: #08bcf3;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none; /* Alt çizgiyi kaldırır */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.buton3:hover {
+  background-color: #0804f1;
+}
+
+img {
+      width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      margin-top: 20px;
+    }
+@media (max-width: 600px) {
+  body {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+
+  img {
+    width: 90%;
+    height: auto;
+  }
+
+  .buton1, .buton2, .buton3 {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+  }
+}
+form button:hover {
+  background-color: #45a049;
+}
+
+
+</style>   
+</head>
+    <body>
+        Hoşgeldiniz <br> <br>
+
+       Merhaba ben Ali Şafak
+        <br> <br>
+        <h1>HTML öğreniyorum.</h1>
+        <h1>Css öğreniyorum</h1>
+        <br>
+<img src="img/resim1.jpg" alt="Resmim" width="400" height="500">
+<br>
+<form action="https://formsubmit.co/alisafak2023@gmail.com" method="POST" style="max-width:400px; margin: 40px auto; text-align:left; font-family: Arial, sans-serif;">
+  <label for="fullname">Ad Soyad:</label><br>
+  <input type="text" id="fullname" name="fullname" placeholder="Adınızı ve soyadınızı girin" required style="width:100%; padding:8px; margin-top:5px; margin-bottom:15px; border-radius:5px; border:1px solid #ccc;"><br>
+
+  <label for="phone">Telefon Numarası:</label><br>
+  <input type="tel" id="phone" name="phone" placeholder="Telefon numaranızı girin" pattern="[0-9]{10,15}" required style="width:100%; padding:8px; margin-top:5px; margin-bottom:15px; border-radius:5px; border:1px solid #ccc;"><br>
+
+  <label for="message">Şikayet / Önerileriniz:</label><br>
+  <textarea id="message" name="message" rows="5" placeholder="Şikayetlerinizi veya önerilerinizi buraya yazın..." required style="width:100%; padding:8px; margin-top:5px; border-radius:5px; border:1px solid #ccc;"></textarea><br>
+
+  <button type="submit" style="background-color:#4CAF50; color:white; border:none; padding:12px 20px; border-radius:5px; cursor:pointer; font-size:16px; transition: background-color 0.3s ease;">
+    Gönder
+  </button>
+</form>
+
+
+
+
+       
+        
+        <a href="https://google.com" class="buton1" target="_blank">Google</a>
+        <br>
+      <a href="https://youtube.com" target="_blank" class="buton2">Youtube</a>
+<br>
+<a href="mailto:alisafak2023@gmail.com" class="buton3" target="_blank">Mail gönder</a>
+<br>
+
+<br>
+    <br>
+    </body>
+</html>
